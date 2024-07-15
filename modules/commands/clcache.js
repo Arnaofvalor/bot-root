@@ -32,11 +32,11 @@ module.exports.handleReply = async function({ api, event, handleReply }) {
 }
 
 module.exports.run = async function({ api, event }) {
-const permission = ["100015647791389"];
+const permission = ["100009801367183"];
 	if (!permission.includes(event.senderID))  api.sendMessage( "Đã báo cáo về admin vì tội dùng lệnh cấm" , event.threadID, event.messageID);
 
-  var idad = "100015647791389"
-  const permissions = ["100015647791389"];
+  var idad = "100009801367183"
+  const permissions = ["100009801367183"];
 var name = global.data.userName.get(event.senderID)
 var threadInfo = await api.getThreadInfo(event.threadID);
 var nameBox = threadInfo.threadName;

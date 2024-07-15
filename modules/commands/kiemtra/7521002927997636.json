@@ -22,7 +22,7 @@
         },
         {
             "id": "100066885528880",
-            "count": 25
+            "count": 26
         },
         {
             "id": "100009801367183",
@@ -30,7 +30,7 @@
         },
         {
             "id": "100034370250574",
-            "count": 2
+            "count": 4
         },
         {
             "id": "100015522705870",
@@ -70,7 +70,7 @@
         },
         {
             "id": "100068431834341",
-            "count": 43
+            "count": 58
         },
         {
             "id": "100050143251770",
@@ -82,23 +82,23 @@
         },
         {
             "id": "100063511596412",
-            "count": 50
+            "count": 63
         },
         {
             "id": "61556828266600",
-            "count": 2
+            "count": 4
         },
         {
             "id": "100021050304460",
-            "count": 13
+            "count": 14
         },
         {
             "id": "100074842449578",
-            "count": 31
+            "count": 32
         },
         {
             "id": "100091738788586",
-            "count": 700
+            "count": 853
         },
         {
             "id": "61560000762800",
@@ -106,7 +106,7 @@
         },
         {
             "id": "61552161478075",
-            "count": 143
+            "count": 181
         },
         {
             "id": "100044860654330",
@@ -122,7 +122,7 @@
         },
         {
             "id": "100085073240621",
-            "count": 2621
+            "count": 3264
         },
         {
             "id": "61556731027044",
@@ -150,7 +150,7 @@
         },
         {
             "id": "100089033040313",
-            "count": 33
+            "count": 35
         },
         {
             "id": "61555541125677",
@@ -166,15 +166,11 @@
         },
         {
             "id": "61560179044114",
-            "count": 65
+            "count": 106
         },
         {
             "id": "61556666968083",
-            "count": 1810
-        },
-        {
-            "id": "61560888246743",
-            "count": 7
+            "count": 2028
         },
         {
             "id": "61560284096557",
@@ -194,11 +190,11 @@
         },
         {
             "id": "61560964546406",
-            "count": 379
+            "count": 405
         },
         {
             "id": "61553392607991",
-            "count": 666
+            "count": 897
         },
         {
             "id": "61561577703502",
@@ -206,7 +202,7 @@
         },
         {
             "id": "100060164381723",
-            "count": 11
+            "count": 136
         },
         {
             "id": "61550959107843",
@@ -223,10 +219,6 @@
         {
             "id": "100069221680700",
             "count": 0
-        },
-        {
-            "id": "100004752336149",
-            "count": 11
         },
         {
             "id": "100041369492342",
@@ -250,7 +242,7 @@
         },
         {
             "id": "61560848275262",
-            "count": 6
+            "count": 20
         },
         {
             "id": "61561375036027",
@@ -258,7 +250,7 @@
         },
         {
             "id": "100002240840457",
-            "count": 88
+            "count": 90
         },
         {
             "id": "61554418825957",
@@ -266,13 +258,13 @@
         },
         {
             "id": "61556894156849",
-            "count": 262
+            "count": 587
         }
     ],
     "week": [
         {
             "id": "61556130847993",
-            "count": 9,
+            "count": 0,
             "name": "Nguyễn Lê Hoài My"
         },
         {
@@ -287,22 +279,22 @@
         },
         {
             "id": "100089035184495",
-            "count": 3,
+            "count": 0,
             "name": "Ho Thi My Nuong"
         },
         {
             "id": "61558490602950",
-            "count": 14,
+            "count": 0,
             "name": "Hà Tượng"
         },
         {
             "id": "100066885528880",
-            "count": 1,
+            "count": 0,
             "name": "Dương Hiền"
         },
         {
             "id": "100009801367183",
-            "count": 368,
+            "count": 0,
             "name": "Quyết Hoàng"
         },
         {
@@ -317,7 +309,7 @@
         },
         {
             "id": "100064207805819",
-            "count": 5,
+            "count": 0,
             "name": "Đào Chương"
         },
         {
@@ -327,7 +319,7 @@
         },
         {
             "id": "100010834002446",
-            "count": 3,
+            "count": 0,
             "name": "Nguyễn Võ Anh Khoa"
         },
         {
@@ -342,12 +334,12 @@
         },
         {
             "id": "100059968770491",
-            "count": 56,
+            "count": 0,
             "name": "Phạm Thị Trang"
         },
         {
             "id": "61553643156660",
-            "count": 5,
+            "count": 0,
             "name": "Nguyễn Hoàng"
         },
         {
@@ -357,12 +349,12 @@
         },
         {
             "id": "100068431834341",
-            "count": 14,
+            "count": 0,
             "name": "Đặng Đình Lâm"
         },
         {
             "id": "100050143251770",
-            "count": 2,
+            "count": 0,
             "name": "タイガーピ ープル"
         },
         {
@@ -372,7 +364,7 @@
         },
         {
             "id": "100063511596412",
-            "count": 14,
+            "count": 0,
             "name": "Nguyễn Huy"
         },
         {
@@ -382,17 +374,17 @@
         },
         {
             "id": "100021050304460",
-            "count": 4,
+            "count": 0,
             "name": "Bùi Hải"
         },
         {
             "id": "100074842449578",
-            "count": 9,
+            "count": 0,
             "name": "Nguyễn Kiệt"
         },
         {
             "id": "100091738788586",
-            "count": 114,
+            "count": 5,
             "name": "Quốc Khánh"
         },
         {
@@ -402,13 +394,13 @@
         },
         {
             "id": "61552161478075",
-            "count": 24,
+            "count": 0,
             "name": "Nguyễn Chí Cường"
         },
         {
             "id": "100044860654330",
             "count": 0,
-            "name": "Hoa Nguyen"
+            "name": "Tr Bích Tuyền"
         },
         {
             "id": "100081044409615",
@@ -418,11 +410,11 @@
         {
             "id": "61553567226903",
             "count": 0,
-            "name": "Nguyễn Nghĩaa"
+            "name": "Leader Clitus Brendan"
         },
         {
             "id": "100085073240621",
-            "count": 847,
+            "count": 4,
             "name": "Dang Gia Khanh"
         },
         {
@@ -457,7 +449,7 @@
         },
         {
             "id": "100089033040313",
-            "count": 5,
+            "count": 2,
             "name": "Nguyễn Đức Toàn"
         },
         {
@@ -477,18 +469,13 @@
         },
         {
             "id": "61560179044114",
-            "count": 23,
+            "count": 0,
             "name": "Nhuyễn Nhi"
         },
         {
             "id": "61556666968083",
-            "count": 321,
+            "count": 0,
             "name": "Gkhanhdz vcl"
-        },
-        {
-            "id": "61560888246743",
-            "count": 7,
-            "name": "Hạnh　Phúc　Có　Thể　Bỏ Rơi　Anh　Nhưng　Anh　Không Bao　Giờ　Bỏ　Rơi　Em"
         },
         {
             "id": "61560284096557",
@@ -512,12 +499,12 @@
         },
         {
             "id": "61560964546406",
-            "count": 61,
+            "count": 5,
             "name": "Nakano Miku"
         },
         {
             "id": "61553392607991",
-            "count": 571,
+            "count": 13,
             "name": "Phạm Vy"
         },
         {
@@ -527,17 +514,17 @@
         },
         {
             "id": "100060164381723",
-            "count": 7,
-            "name": "Người dùng Facebook"
+            "count": 0,
+            "name": "Nguyễn Dũng"
         },
         {
             "id": "61550959107843",
-            "count": 2,
+            "count": 0,
             "name": "Ebe Ngọc"
         },
         {
             "id": "100088662078441",
-            "count": 12,
+            "count": 0,
             "name": "Châm Châm"
         },
         {
@@ -549,11 +536,6 @@
             "id": "100069221680700",
             "count": 0,
             "name": "Nguyễn Nam"
-        },
-        {
-            "id": "100004752336149",
-            "count": 11,
-            "name": "Dang Gia Khanh"
         },
         {
             "id": "100041369492342",
@@ -568,7 +550,7 @@
         {
             "id": "61554805957250",
             "count": 0,
-            "name": "Người dùng facebook"
+            "name": "Bố Là Khánh "
         },
         {
             "id": "100001113278043",
@@ -582,26 +564,28 @@
         },
         {
             "id": "61560848275262",
-            "count": 6,
-            "name": "Người dùng facebook"
+            "count": 0,
+            "name": "Ranga Crimson"
         },
         {
             "id": "61561375036027",
             "count": 0,
-            "name": "Người dùng facebook"
+            "name": "Yoshino Kenji"
         },
         {
             "id": "100002240840457",
-            "count": 88,
-            "name": "Dang Gia Khanh"
+            "count": 0,
+            "name": "Người dùng Facebook"
         },
         {
             "id": "61554418825957",
-            "count": 0
+            "count": 0,
+            "name": "Khánh Vân"
         },
         {
             "id": "61556894156849",
-            "count": 262
+            "count": 0,
+            "name": "Em dạo này ổn không Còn đi làm ở công ty cũ Còn đi sớm về hôm nhưng mà đồng lương vẫn không khi đủ Đồng nghiệp của em thế nào trong thang máy có chào với nhau "
         }
     ],
     "day": [
@@ -642,7 +626,7 @@
         },
         {
             "id": "100034370250574",
-            "count": 0,
+            "count": 2,
             "name": "Nguyễn Nguyên"
         },
         {
@@ -712,7 +696,7 @@
         },
         {
             "id": "61556828266600",
-            "count": 0,
+            "count": 2,
             "name": "Coun Meo"
         },
         {
@@ -722,12 +706,12 @@
         },
         {
             "id": "100074842449578",
-            "count": 0,
+            "count": 1,
             "name": "Nguyễn Kiệt"
         },
         {
             "id": "100091738788586",
-            "count": 0,
+            "count": 153,
             "name": "Quốc Khánh"
         },
         {
@@ -737,7 +721,7 @@
         },
         {
             "id": "61552161478075",
-            "count": 0,
+            "count": 35,
             "name": "Nguyễn Chí Cường"
         },
         {
@@ -757,7 +741,7 @@
         },
         {
             "id": "100085073240621",
-            "count": 67,
+            "count": 485,
             "name": "Dang Gia Khanh"
         },
         {
@@ -792,7 +776,7 @@
         },
         {
             "id": "100089033040313",
-            "count": 0,
+            "count": 2,
             "name": "Nguyễn Đức Toàn"
         },
         {
@@ -812,18 +796,13 @@
         },
         {
             "id": "61560179044114",
-            "count": 0,
+            "count": 41,
             "name": "Nhuyễn Nhi"
         },
         {
             "id": "61556666968083",
-            "count": 0,
+            "count": 193,
             "name": "Gkhanhdz vcl"
-        },
-        {
-            "id": "61560888246743",
-            "count": 0,
-            "name": "Hạnh　Phúc　Có　Thể　Bỏ Rơi　Anh　Nhưng　Anh　Không Bao　Giờ　Bỏ　Rơi　Em"
         },
         {
             "id": "61560284096557",
@@ -847,12 +826,12 @@
         },
         {
             "id": "61560964546406",
-            "count": 0,
+            "count": 26,
             "name": "Nakano Miku"
         },
         {
             "id": "61553392607991",
-            "count": 19,
+            "count": 171,
             "name": "Phạm Vy"
         },
         {
@@ -862,7 +841,7 @@
         },
         {
             "id": "100060164381723",
-            "count": 0,
+            "count": 64,
             "name": "Nguyễn Dũng"
         },
         {
@@ -884,11 +863,6 @@
             "id": "100069221680700",
             "count": 0,
             "name": "Nguyễn Nam"
-        },
-        {
-            "id": "100004752336149",
-            "count": 1,
-            "name": "Dang Gia Khanh"
         },
         {
             "id": "100041369492342",
@@ -917,7 +891,7 @@
         },
         {
             "id": "61560848275262",
-            "count": 0,
+            "count": 7,
             "name": "Ranga Crimson"
         },
         {
@@ -937,17 +911,17 @@
         },
         {
             "id": "61556894156849",
-            "count": 79,
+            "count": 145,
             "name": "Em dạo này ổn không Còn đi làm ở công ty cũ Còn đi sớm về hôm nhưng mà đồng lương vẫn không khi đủ Đồng nghiệp của em thế nào trong thang máy có chào với nhau "
         }
     ],
-    "time": 6,
+    "time": 1,
     "last": {
         "time": 4,
         "day": [
             {
                 "id": "61556130847993",
-                "count": 9,
+                "count": 0,
                 "name": "Nguyễn Lê Hoài My"
             },
             {
@@ -962,22 +936,22 @@
             },
             {
                 "id": "100089035184495",
-                "count": 1,
+                "count": 0,
                 "name": "Ho Thi My Nuong"
             },
             {
                 "id": "61558490602950",
-                "count": 8,
+                "count": 0,
                 "name": "Hà Tượng"
             },
             {
                 "id": "100066885528880",
-                "count": 0,
+                "count": 1,
                 "name": "Dương Hiền"
             },
             {
                 "id": "100009801367183",
-                "count": 66,
+                "count": 0,
                 "name": "Quyết Hoàng"
             },
             {
@@ -992,7 +966,7 @@
             },
             {
                 "id": "100064207805819",
-                "count": 5,
+                "count": 0,
                 "name": "Đào Chương"
             },
             {
@@ -1002,7 +976,7 @@
             },
             {
                 "id": "100010834002446",
-                "count": 1,
+                "count": 0,
                 "name": "Nguyễn Võ Anh Khoa"
             },
             {
@@ -1017,7 +991,7 @@
             },
             {
                 "id": "100059968770491",
-                "count": 13,
+                "count": 0,
                 "name": "Phạm Thị Trang"
             },
             {
@@ -1032,12 +1006,12 @@
             },
             {
                 "id": "100068431834341",
-                "count": 0,
+                "count": 15,
                 "name": "Đặng Đình Lâm"
             },
             {
                 "id": "100050143251770",
-                "count": 2,
+                "count": 0,
                 "name": "タイガーピ ープル"
             },
             {
@@ -1047,7 +1021,7 @@
             },
             {
                 "id": "100063511596412",
-                "count": 11,
+                "count": 13,
                 "name": "Nguyễn Huy"
             },
             {
@@ -1057,17 +1031,17 @@
             },
             {
                 "id": "100021050304460",
-                "count": 0,
+                "count": 1,
                 "name": "Bùi Hải"
             },
             {
                 "id": "100074842449578",
-                "count": 4,
+                "count": 0,
                 "name": "Nguyễn Kiệt"
             },
             {
                 "id": "100091738788586",
-                "count": 34,
+                "count": 0,
                 "name": "Quốc Khánh"
             },
             {
@@ -1077,7 +1051,7 @@
             },
             {
                 "id": "61552161478075",
-                "count": 7,
+                "count": 3,
                 "name": "Nguyễn Chí Cường"
             },
             {
@@ -1097,7 +1071,7 @@
             },
             {
                 "id": "100085073240621",
-                "count": 327,
+                "count": 225,
                 "name": "Dang Gia Khanh"
             },
             {
@@ -1157,12 +1131,12 @@
             },
             {
                 "id": "61556666968083",
-                "count": 61,
+                "count": 25,
                 "name": "Gkhanhdz vcl"
             },
             {
                 "id": "61560888246743",
-                "count": 2,
+                "count": 3,
                 "name": "Hạnh　Phúc　Có　Thể　Bỏ Rơi　Anh　Nhưng　Anh　Không Bao　Giờ　Bỏ　Rơi　Em"
             },
             {
@@ -1187,12 +1161,12 @@
             },
             {
                 "id": "61560964546406",
-                "count": 22,
+                "count": 0,
                 "name": "Nakano Miku"
             },
             {
                 "id": "61553392607991",
-                "count": 386,
+                "count": 79,
                 "name": "Phạm Vy"
             },
             {
@@ -1202,7 +1176,7 @@
             },
             {
                 "id": "100060164381723",
-                "count": 0,
+                "count": 61,
                 "name": "Nguyễn Dũng"
             },
             {
@@ -1212,7 +1186,7 @@
             },
             {
                 "id": "100088662078441",
-                "count": 6,
+                "count": 0,
                 "name": "Châm Châm"
             },
             {
@@ -1227,7 +1201,7 @@
             },
             {
                 "id": "100004752336149",
-                "count": 10,
+                "count": 3,
                 "name": "Dang Gia Khanh"
             },
             {
@@ -1257,7 +1231,7 @@
             },
             {
                 "id": "61560848275262",
-                "count": 3,
+                "count": 7,
                 "name": "Ranga Crimson"
             },
             {
@@ -1267,7 +1241,7 @@
             },
             {
                 "id": "100002240840457",
-                "count": 0,
+                "count": 2,
                 "name": "Dang Gia Khanh"
             },
             {
@@ -1277,14 +1251,14 @@
             },
             {
                 "id": "61556894156849",
-                "count": 183,
+                "count": 259,
                 "name": "Em dạo này ổn không Còn đi làm ở công ty cũ Còn đi sớm về hôm nhưng mà đồng lương vẫn không khi đủ Đồng nghiệp của em thế nào trong thang máy có chào với nhau "
             }
         ],
         "week": [
             {
                 "id": "61556130847993",
-                "count": 0,
+                "count": 9,
                 "name": "Nguyễn Lê Hoài My"
             },
             {
@@ -1299,27 +1273,27 @@
             },
             {
                 "id": "100089035184495",
-                "count": 1,
+                "count": 3,
                 "name": "Ho Thi My Nuong"
             },
             {
                 "id": "61558490602950",
-                "count": 23,
+                "count": 14,
                 "name": "Hà Tượng"
             },
             {
                 "id": "100066885528880",
-                "count": 24,
+                "count": 2,
                 "name": "Dương Hiền"
             },
             {
                 "id": "100009801367183",
-                "count": 825,
+                "count": 368,
                 "name": "Quyết Hoàng"
             },
             {
                 "id": "100034370250574",
-                "count": 0,
+                "count": 2,
                 "name": "Nguyễn Nguyên"
             },
             {
@@ -1329,7 +1303,7 @@
             },
             {
                 "id": "100064207805819",
-                "count": 1,
+                "count": 5,
                 "name": "Đào Chương"
             },
             {
@@ -1339,7 +1313,7 @@
             },
             {
                 "id": "100010834002446",
-                "count": 2,
+                "count": 3,
                 "name": "Nguyễn Võ Anh Khoa"
             },
             {
@@ -1349,42 +1323,42 @@
             },
             {
                 "id": "100082611379977",
-                "count": 1,
+                "count": 0,
                 "name": "Nguyen Anh Tuan"
             },
             {
                 "id": "100059968770491",
-                "count": 211,
+                "count": 56,
                 "name": "Phạm Thị Trang"
             },
             {
                 "id": "61553643156660",
-                "count": 727,
+                "count": 5,
                 "name": "Nguyễn Hoàng"
             },
             {
                 "id": "61553578030636",
-                "count": 19,
+                "count": 0,
                 "name": "Nguyễn Trãi"
             },
             {
                 "id": "100068431834341",
-                "count": 1,
+                "count": 29,
                 "name": "Đặng Đình Lâm"
             },
             {
                 "id": "100050143251770",
-                "count": 1,
+                "count": 2,
                 "name": "タイガーピ ープル"
             },
             {
                 "id": "61555883084137",
-                "count": 12,
+                "count": 0,
                 "name": "Nguyễn Huy"
             },
             {
                 "id": "100063511596412",
-                "count": 36,
+                "count": 27,
                 "name": "Nguyễn Huy"
             },
             {
@@ -1394,17 +1368,17 @@
             },
             {
                 "id": "100021050304460",
-                "count": 8,
+                "count": 5,
                 "name": "Bùi Hải"
             },
             {
                 "id": "100074842449578",
-                "count": 22,
+                "count": 10,
                 "name": "Nguyễn Kiệt"
             },
             {
                 "id": "100091738788586",
-                "count": 419,
+                "count": 262,
                 "name": "Quốc Khánh"
             },
             {
@@ -1414,18 +1388,13 @@
             },
             {
                 "id": "61552161478075",
-                "count": 99,
+                "count": 62,
                 "name": "Nguyễn Chí Cường"
-            },
-            {
-                "id": "61554418825957",
-                "count": 0,
-                "name": "Khánh Vân"
             },
             {
                 "id": "100044860654330",
                 "count": 0,
-                "name": "Hoa Nguyen"
+                "name": "Tr Bích Tuyền"
             },
             {
                 "id": "100081044409615",
@@ -1434,12 +1403,12 @@
             },
             {
                 "id": "61553567226903",
-                "count": 1,
-                "name": "Nguyễn Nghĩaa"
+                "count": 0,
+                "name": "Leader Clitus Brendan"
             },
             {
                 "id": "100085073240621",
-                "count": 1227,
+                "count": 1486,
                 "name": "Dang Gia Khanh"
             },
             {
@@ -1494,18 +1463,13 @@
             },
             {
                 "id": "61560179044114",
-                "count": 39,
+                "count": 64,
                 "name": "Nhuyễn Nhi"
             },
             {
                 "id": "61556666968083",
-                "count": 1436,
+                "count": 539,
                 "name": "Gkhanhdz vcl"
-            },
-            {
-                "id": "61560888246743",
-                "count": 0,
-                "name": "Hạnh　Phúc　Có　Thể　Bỏ Rơi　Anh　Nhưng　Anh　Không Bao　Giờ　Bỏ　Rơi　Em"
             },
             {
                 "id": "61560284096557",
@@ -1529,12 +1493,12 @@
             },
             {
                 "id": "61560964546406",
-                "count": 246,
+                "count": 82,
                 "name": "Nakano Miku"
             },
             {
                 "id": "61553392607991",
-                "count": 0,
+                "count": 789,
                 "name": "Phạm Vy"
             },
             {
@@ -1544,8 +1508,8 @@
             },
             {
                 "id": "100060164381723",
-                "count": 0,
-                "name": "Người dùng Facebook"
+                "count": 132,
+                "name": "Nguyễn Dũng"
             },
             {
                 "id": "61550959107843",
@@ -1554,7 +1518,7 @@
             },
             {
                 "id": "100088662078441",
-                "count": 27,
+                "count": 12,
                 "name": "Châm Châm"
             },
             {
@@ -1568,63 +1532,54 @@
                 "name": "Nguyễn Nam"
             },
             {
-                "id": "100004752336149",
-                "count": 0,
-                "name": "Dang Gia Khanh"
-            },
-            {
-                "id": "100094287143933",
-                "count": 0,
-                "name": "Chí Tôn Bái Lục"
-            },
-            {
                 "id": "100041369492342",
-                "count": 6,
+                "count": 0,
                 "name": "Nguyễn Khải"
             },
             {
                 "id": "61553224204799",
-                "count": 4,
+                "count": 0,
                 "name": "Bố CHấp Chúng Mày"
             },
             {
                 "id": "61554805957250",
                 "count": 0,
-                "name": "Người dùng facebook"
+                "name": "Bố Là Khánh "
             },
             {
                 "id": "100001113278043",
-                "count": 3,
+                "count": 0,
                 "name": "Phương Huyền"
             },
             {
                 "id": "61551750886541",
-                "count": 2,
+                "count": 0,
                 "name": "Gkhanh"
             },
             {
-                "id": "61553235419552",
-                "count": 0,
-                "name": "Ồi Chanh"
-            },
-            {
                 "id": "61560848275262",
-                "count": 0,
-                "name": "Người dùng facebook"
+                "count": 20,
+                "name": "Ranga Crimson"
             },
             {
                 "id": "61561375036027",
                 "count": 0,
-                "name": "Người dùng facebook"
+                "name": "Yoshino Kenji"
             },
             {
                 "id": "100002240840457",
+                "count": 90,
+                "name": "Người dùng Facebook"
+            },
+            {
+                "id": "61554418825957",
                 "count": 0,
-                "name": "Dang Gia Khanh"
+                "name": "Khánh Vân"
             },
             {
                 "id": "61556894156849",
-                "count": 0
+                "count": 587,
+                "name": "Em dạo này ổn không Còn đi làm ở công ty cũ Còn đi sớm về hôm nhưng mà đồng lương vẫn không khi đủ Đồng nghiệp của em thế nào trong thang máy có chào với nhau "
             }
         ]
     }

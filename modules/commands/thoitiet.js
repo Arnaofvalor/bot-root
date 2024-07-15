@@ -4,7 +4,7 @@ module.exports.config = {
     hasPermssion: 0,
     credits: "D-Jukie convert từ Goat",
     description: "Xem thời tiết trong 5 ngày",
-    commandCategory: "Tiện ích",
+    commandCategory: "tiện ích",
     usages: "[location]",
     cooldowns: 5
 };

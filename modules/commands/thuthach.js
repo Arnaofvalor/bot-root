@@ -1,23 +1,68 @@
 module.exports.config = {
-    name: "thuthach",
-    version: "1.0.0",
-    hasPermssion: 0,
-    credits: "JRT",
-    description: "Random câu hỏi thật hay thách",
-    commandCategory: "giải trí",
-    usages: "[tag] người để thử thách/nói thật",
+	name: "thuthach",
+	version: "0.0.1",
+	hasPermssion: 0,
+	credits: "tdunguwu mod by Niiozic",
+	description: "thật hay thách",
+	commandCategory: "Game",
     cooldowns: 5
-}, module.exports.run = async ({
-    api: n,
-    event: h 
-}) => {
-    const {
-        threadID: i,
-        messageID: m,
-        senderID: c
-    } = h, t = ["Tự quay 1vd vả mặt mình và gửi lên", "Hát một bài cho một người khác giới bất kì đang có mặt.", "Giơ tấm ảnh thứ 2 trong Album ảnh ra, đồng thời kể rõ bối cảnh đằng sau bức ảnh.", "Đứng cười trước cái thùng rác đủ 10 giây.", "Hoặc đơn giản chỉ việc nhờ người nhận THÁCH đi rót cốc nước, lấy đồ ăn cho mình. Vì bạn quá lười để tự đi ra lấy.", "Nhanh chóng nói ra 3 câu thành ngữ có chứa chữ số ở trong.", "Đọc to, rõ ràng một cách tình cảm thắm thiết câu nói sau: Ứ ừ! Tại anh í! Chả thèm dỗ dành người ta gì cả (｡•ˇ‸ˇ•｡) nguời ta siêu muốn khóc đây này, đấm vào cái ngực của anh í, đồ xấu xa!!! (￣^￣)ゞđấm vào cái ngực! Cái đồ đáng ghét! (=ﾟωﾟ)ﾉ người ta muốn được ôm~ ứ ừ…… hứ, người ta giơ nắm tay đấm vào ngực cho biết mặt!!! (｡• ︿•̀｡) Đồ xấu xa, đánh cho chết này  (つд⊂).", "Chọn một người đang có mặt, cùng bạn diễn một đoạn kịch, cho đến khi nào người khác biết hai bạn đang diễn gì thì mới dừng lại.", "Đút đồ ăn cho một người cùng giới đang có mặt, đồng thời nói “Cái miệng chinh chắn đâu rồi ~”, người kia đáp lại “A ~ đáng ghét!”… hoặc những câu tương tự.", "Bịt mắt (không có điều kiện thì nhắm mắt lại) sau đó nắm tay một người bất kì đang có mặt, nếu đoán đúng thân phận người đó thì qua ải, nếu thất bại thì phải làm theo lệnh của đối phương.", "Gửi cho crush một tấm hình mà bạn thấy mình đáng yêu nhất.", "Dùng giấy vệ sinh quấn đầu giống như Aladin, rồi cứ để như thế cho đến lúc kết thúc trò chơi.", "Hôn một người cùng giới đang có mặt, bất cứ bộ phận nào cũng được.", "Mở loa ngoài khi gọi cho một người bạn khác giới ở trong danh bạ, nói là mình đang say. (Trò này tốt nhất nên chơi cùng những người thân, nếu không thì hơi quá đà)", "Đăng một tus lên facebook vs nội dung (Thèm Ăn Cứt) trong 1h.", "Nhắn cho nyc và bảo em/anh nhớ anh/em.", "Phần nào của cơ thể mà bạn thấy hấp dẫn nhất ở một người từ giới tính khác (hoặc giống nhau)?",  "Bạn nghĩ ai trong nhóm này đã cải thiện ngoại hình?",  "Bạn có nghĩ rằng bất kỳ ai trong số những người ở đây có một đối tác không phù hợp với họ không? Ai? Tại sao?",  "Điều đầu tiên bạn nhìn vào một người phụ nữ hay một người đàn ông khi bạn biết anh ta là gì?",  "Bạn đã bao giờ gian lận ở trường để vượt qua một kỳ thi?", "Nụ hôn đầu của bạn thế nào?", "Bạn sẽ sẵn sàng làm gì với một triệu đô la?", "Bạn đã từng yêu ai đó và bạn chưa nói với họ?", "Tưởng tượng mong muốn nhất của bạn là gì?", "Thức ăn kỳ lạ nhất bạn đã ăn là gì?", "Đám cưới trong mơ của bạn sẽ là gì?", "Bạn muốn thay đổi cơ thể của bạn là gì?", "Ai là người yêu thích của bạn và tại sao?", "Bạn đã bao giờ nói dối trong một trò chơi của sự thật hoặc thách thức? Nó là gì và tại sao?", "Nỗi sợ lớn nhất của bạn là gì?", "Chuyện gì đã xảy ra vào ngày tồi tệ nhất trong cuộc đời bạn?", "Sức mạnh của bạn là gì nếu bạn có thể trở thành một siêu anh hùng??", "Bạn sẽ chọn bộ phim nào nếu bạn có thể biến nó thành cuộc sống của bạn?", "Tài năng đặc biệt của bạn là gì?", "Thực phẩm tốt nhất bạn đã thử là gì?", "Bộ phim Disney yêu thích của bạn là gì và tại sao?", "Bạn sẽ làm gì với một triệu đô la nếu bạn từng trúng xổ số??", "Bạn đã bao giờ nghĩ về việc lừa dối bạn trai / bạn gái của bạn??", "Bạn đã bao giờ nói dối đối tác của mình để tránh một khoảnh khắc thân mật, ví dụ, nói rằng đầu bạn đau??", "Trò đùa độc ác nhất bạn từng dành cho ai đó là gì?", "Điều đáng xấu hổ nhất mà bạn đã đưa lên mạng xã hội là gì?", "Lời nói dối tồi tệ nhất bạn đã nói với cha mẹ của bạn là gì?", "Bạn đã chiến thắng trong cuộc chiến nào? Và mất?", "Điều gì làm phiền bạn nhất mà mẹ bạn làm??", "Điều gì làm phiền bạn nhất về cha của bạn??", "Câu chuyện vui nhất mà ông bà của bạn đã kể cho bạn là gì?", "Bài hát yêu thích của bạn trong thời thơ ấu của bạn là gì?", "Ngôi nhà mơ ước của bạn như thế nào?", "Khoảng thời gian dài nhất bạn đã trải qua mà không tắm là gì và tại sao?", "Bạn đã mặc quần áo giống nhau trong hơn 3 ngày?", "Bạn sẽ là con vật gì?", "Bạn sẽ là con khủng long nào?", "Giám sát bạn sẽ là gì?", "Với những gì người nổi tiếng bạn bị ám ảnh?", "Video YouTube thú vị nhất bạn từng xem là gì?", "Ai là giáo viên tồi nhất bạn từng có và tại sao?", "Đội thể thao yêu thích của bạn là gì?", "Bài hát yêu thích của bạn lúc này là gì?", "Bạn có thể dành hai tháng mà không nói chuyện với bạn bè của bạn??", "Bạn có thể dành hai tháng mà không có điện thoại của bạn?", "Bạn có thể dành hai tháng mà không xem tivi?", "Bạn có thể dành hai tháng mà không kết nối với mạng xã hội??", "Định kiến gì làm bạn bí mật chứa chấp?", "Bạn bao nhiêu tuổi khi trao nụ hôn đầu?"];
-    var g = Object.keys(h.mentions),
-        e = ["1", "2"],
-        u = e[Math.floor(Math.random() * e.length)];
-    1 == Object.keys(h.mentions).length ? (2 == u && n.sendMessage(`🚀Bạn à mình có câu hỏi này dành cho bạn nên là hãy trả lời thật hoặc làm theo thử thách mình đưa ra nhé!!\n💥Đây là 1 câu hỏi thật hoặc thách dành cho bạn ${h.mentions[g].replace("@","")}\n📝Câu hỏi: ${a[Math.floor(Math.random()*a.length)]}`, i, m), 1 == u && n.sendMessage(`🚀Bạn à mình có câu hỏi này dành cho bạn nên là hãy trả lời thật hoặc làm theo thử thách mình đưa ra nhé!!\n💥Đây là 1 câu hỏi thật hoặc thách dành cho bạn ${h.mentions[g].replace("@","")}\n📝Câu hỏi: ${t[Math.floor(Math.random()*t.length)]}`, i, m)) : (2 == u && n.sendMessage(`${a[Math.floor(Math.random()*a.length)]}`, i, m), 1 == u && n.sendMessage(`${t[Math.floor(Math.random()*t.length)]}`, i, m))
 };
+var dare = ["Chụp 1 tấm ảnh gửi vào đây","Để avt người hỏi 1 tuần","Vào FaceBook Của người hỏi Bão Like","Nhắn Tỏ Tình Với crush","Ghi Âm Hát Một Bài Nhạc Bất Kì","Ghi Âm Với Nội Dung Là Yêu người hỏi nhất Nhất","Để hình người hỏi làm avt 1 day","Quay video và nói yêu người hỏi rất nhiều","Ăn một thìa cà phê gia vị bất kì trong bếp","Gửi một tấm ảnh lúc bé của bạn","Gửi một tấm ảnh dìm của bạn","Quay video và nói một câu bất kì với cái lưỡi lè ra trong lúc nói","Đăng một trạng thái dài dòng, vô nghĩa trên Facebook.","Bắt chước một ngôi sao YouTube cho đến khi một người chơi khác đoán được bạn đang thể hiện vai diễn của ai.","Gọi cho một người bạn, giả vờ đó là sinh nhật của họ và hát cho họ nghe Chúc mừng sinh nhật","Chụp một tấm hình với gương mặt gợi cảm","Nhắn tin cho nyc bảo quay lại","Tự vả vào mặt 3 cái","Ghi âm một câu em nhớ anh gửi cho admin","Nhắn tin cho bạn thân và bảo là tao đang nứng","Đặt ngôn ngữ điện thoại di động của bạn thành tiếng Trung","Hôn người bạn cùng giới ngồi cạnh, bất kể vị trí nào đều được.","Gởi tin nhắn cho người bạn bất kỳ: Đi ỉa chung hong? Tui đem giấy rồi nè.","Gửi cho người bạn cùng giới thân thiết nhất một tin nhắn: Tôi thật sự thích cậu lâu lắm rồi","Lấy quần đội lên đầu và chụp hình lại gửi vào đây","Hãy tự dơ cánh tay lên và ngửi nách của bạn","Hãy nhắn tin cho 5 người lạ bất kì"];//Câu hỏi thách <3
+var truth = ["Có coi phim người lớn bao giờ chưa?","Hôm nay mặc quần màu gì?","Có thẩm du bao giờ chưa ?","Có quan hệ người lớn bao giờ chưa?","Bị ăn sừng bao nhiêu lần rồi?","Bạn đã bao giờ đi tiểu trong bể bơi chưa?","Bạn đã bao giờ trốn học chưa?","Hôm nay mặc áo ngực màu gì?","Bạn đã ngửi quần lót của mình để kiểm tra xem chúng có bị bẩn không?","Nếu bạn có thể hôn ai đó ngay bây giờ bạn sẽ hôn ai?","Điều kinh tởm nhất mà bạn từng say là gì?", "Có cởi đồ khi đi ngủ không?","Có chụp ảnh nude hoặc quay video không", "Vị trí yêu thích của bạn trên giường là gì?","Đã đi đá phò bao giờ chưa","Một tháng làm việc đó mấy lần","Khi thẩm du trong đầu nghĩ đến ai?","Có từng có suy nghĩ quan hệ 18+ với ny không?","Lông nách có nhiều không","Thích mặt quần lọt khe hay ren?","Có hay bị nốn lừng đêm khuya không?","Bạn muốn có bao nhiêu đứa trẻ?","Một sự thật đáng xấu hổ mà tôi nên biết về bạn là gì?","Nụ hôn đầu tiên của bạn như thế nào?","Số đo 3 vòng của bạn bao nhiêu","Thích kích thước hay kinh nghiệm trong chuyện xxx","Ăn cứt mũi bao giờ chưa","Có ý định quan hệ với người yêu bao giờ chưa?","Cháo lưỡi bao giờ chưa","Nơi yêu thích của bạn để được hôn?","Bạn còn nhớ nyc không","Bạn có ý định quay lại với nyc không","Bạn có bị hôi nách không","Chia sẽ trải nghiệm lần đầu khi cháo lưỡi với người yêu"];//Câu hỏi thật <3
+module.exports.run = async ({ event, api, args, Currencies }) => {
+  const request = require("request");
+const fs = require("fs");
+   const { threadID, messageID, senderID } = event;
+    
+    
+    
+    if (!args[0]) {
+     var msg = {body: `Reply tin nhắn này và chọn thật hoặc thách \n\n1. Thách🐥\n2. Thật 🐰\n\nCó chơi có chịu cấm bùm kèo`}
+        
+        return api.sendMessage(msg, event.threadID, (error, info) => {
+        
+            global.client.handleReply.push({
+                type: "choosee",
+                name: this.config.name,
+                author: event.senderID,
+                messageID: info.messageID
+            })
+        })
+    }
+}
+    module.exports.handleReply = async function ({
+    args,
+    event,
+    Users,
+    api,
+    handleReply,
+    Currencies
+}) {
+  const axios = require("axios");
+    var { author } = handleReply;
+    if (event.senderID != author) return api.sendMessage("[ WARNING ] - Bạn không phải người sử dụng lệnh", event.threadID, event.messageID); 
+    switch (handleReply.type) {
+    case "choosee": {
+        switch (event.body) {
+        case "1": {
+          api.unsendMessage(handleReply.messageID);
+          
+    return api.sendMessage(`Dare 🐥 -> ${dare[Math.floor(Math.random()*dare.length)]}`, event.threadID, event.messageID)
+
+            }
+            
+        
+        
+        case "2": {
+          api.unsendMessage(handleReply.messageID);
+    return api.sendMessage(`Truth 🐰 -> ${truth[Math.floor(Math.random()*truth.length)]}`, event.threadID, event.messageID)
+            }
+            break;
+					default:
+           const choose = parseInt(event.body);
+            	if (isNaN(event.body)) return api.sendMessage("Vui lòng nhập 1 con số", event.threadID, event.messageID);
+            	if (choose > 2 || choose < 1) return api.sendMessage("Lựa chọn không nằm trong danh sách.", event.threadID, event.messageID); 
+    }
+    }
+}
+      }

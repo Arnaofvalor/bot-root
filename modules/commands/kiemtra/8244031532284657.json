@@ -1,0 +1,376 @@
+{
+    "total": [
+        {
+            "id": "61561620350317",
+            "count": 42
+        },
+        {
+            "id": "100066763240078",
+            "count": 6
+        },
+        {
+            "id": "100083786055315",
+            "count": 0
+        },
+        {
+            "id": "100069692124698",
+            "count": 24
+        },
+        {
+            "id": "100008758532744",
+            "count": 3
+        },
+        {
+            "id": "100004973230092",
+            "count": 22
+        },
+        {
+            "id": "100089421346609",
+            "count": 16
+        },
+        {
+            "id": "100084175287130",
+            "count": 25
+        },
+        {
+            "id": "100014042626582",
+            "count": 3
+        },
+        {
+            "id": "100077900138756",
+            "count": 13
+        },
+        {
+            "id": "100079244162748",
+            "count": 13
+        },
+        {
+            "id": "100013493196996",
+            "count": 4
+        },
+        {
+            "id": "61562426783931",
+            "count": 0
+        },
+        {
+            "id": "100009801367183",
+            "count": 0
+        },
+        {
+            "id": "61553392607991",
+            "count": 61
+        }
+    ],
+    "week": [
+        {
+            "id": "61561620350317",
+            "count": 0,
+            "name": "Heaven Gaming"
+        },
+        {
+            "id": "100066763240078",
+            "count": 0,
+            "name": "Phải Dị Chứ"
+        },
+        {
+            "id": "100083786055315",
+            "count": 0,
+            "name": "Lee Zan Bảo Hoàng"
+        },
+        {
+            "id": "100069692124698",
+            "count": 0,
+            "name": "Ko Tên Thứ Hai"
+        },
+        {
+            "id": "100008758532744",
+            "count": 0,
+            "name": "Giang Nguyen"
+        },
+        {
+            "id": "100004973230092",
+            "count": 0,
+            "name": "Nguyễnvăn Thành"
+        },
+        {
+            "id": "100089421346609",
+            "count": 0,
+            "name": "Đỗ Hòa"
+        },
+        {
+            "id": "100084175287130",
+            "count": 0,
+            "name": "Phạm Phạm"
+        },
+        {
+            "id": "100014042626582",
+            "count": 0,
+            "name": "Thanh Xuân"
+        },
+        {
+            "id": "100077900138756",
+            "count": 0,
+            "name": "Eli Clark"
+        },
+        {
+            "id": "100079244162748",
+            "count": 4,
+            "name": "Phan Tuấn Hùng"
+        },
+        {
+            "id": "100013493196996",
+            "count": 0,
+            "name": "Nguyễn Quý Hùng"
+        },
+        {
+            "id": "61562426783931",
+            "count": 0,
+            "name": "Trịnh Trần Phương Tuấn"
+        },
+        {
+            "id": "100009801367183",
+            "count": 0,
+            "name": "Quyết Hoàng"
+        },
+        {
+            "id": "61553392607991",
+            "count": 9,
+            "name": "Phạm Vy"
+        }
+    ],
+    "day": [
+        {
+            "id": "61561620350317",
+            "count": 0,
+            "name": "Heaven Gaming"
+        },
+        {
+            "id": "100066763240078",
+            "count": 0,
+            "name": "Phải Dị Chứ"
+        },
+        {
+            "id": "100083786055315",
+            "count": 0,
+            "name": "Lee Zan Bảo Hoàng"
+        },
+        {
+            "id": "100069692124698",
+            "count": 4,
+            "name": "Ko Tên Thứ Hai"
+        },
+        {
+            "id": "100008758532744",
+            "count": 0,
+            "name": "Giang Nguyen"
+        },
+        {
+            "id": "100004973230092",
+            "count": 2,
+            "name": "Nguyễnvăn Thành"
+        },
+        {
+            "id": "100089421346609",
+            "count": 0,
+            "name": "Đỗ Hòa"
+        },
+        {
+            "id": "100084175287130",
+            "count": 3,
+            "name": "Phạm Phạm"
+        },
+        {
+            "id": "100014042626582",
+            "count": 3,
+            "name": "Thanh Xuân"
+        },
+        {
+            "id": "100077900138756",
+            "count": 8,
+            "name": "Eli Clark"
+        },
+        {
+            "id": "100079244162748",
+            "count": 9,
+            "name": "Phan Tuấn Hùng"
+        },
+        {
+            "id": "100013493196996",
+            "count": 0,
+            "name": "Nguyễn Quý Hùng"
+        },
+        {
+            "id": "61562426783931",
+            "count": 0,
+            "name": "Trịnh Trần Phương Tuấn"
+        },
+        {
+            "id": "100009801367183",
+            "count": 0,
+            "name": "Quyết Hoàng"
+        },
+        {
+            "id": "61553392607991",
+            "count": 41,
+            "name": "Phạm Vy"
+        }
+    ],
+    "time": 1,
+    "last": {
+        "time": 6,
+        "day": [
+            {
+                "id": "61561620350317",
+                "count": 42,
+                "name": "Heaven Gaming"
+            },
+            {
+                "id": "100066763240078",
+                "count": 6,
+                "name": "Phải Dị Chứ"
+            },
+            {
+                "id": "100083786055315",
+                "count": 0,
+                "name": "Lee Zan Bảo Hoàng"
+            },
+            {
+                "id": "100069692124698",
+                "count": 20,
+                "name": "Ko Tên Thứ Hai"
+            },
+            {
+                "id": "100008758532744",
+                "count": 3,
+                "name": "Giang Nguyen"
+            },
+            {
+                "id": "100004973230092",
+                "count": 20,
+                "name": "Nguyễnvăn Thành"
+            },
+            {
+                "id": "100089421346609",
+                "count": 16,
+                "name": "Đỗ Hòa"
+            },
+            {
+                "id": "100084175287130",
+                "count": 22,
+                "name": "Phạm Phạm"
+            },
+            {
+                "id": "100014042626582",
+                "count": 0,
+                "name": "Thanh Xuân"
+            },
+            {
+                "id": "100077900138756",
+                "count": 5,
+                "name": "Eli Clark"
+            },
+            {
+                "id": "100079244162748",
+                "count": 4,
+                "name": "Phan Tuấn Hùng"
+            },
+            {
+                "id": "100013493196996",
+                "count": 4,
+                "name": "Nguyễn Quý Hùng"
+            },
+            {
+                "id": "61562426783931",
+                "count": 0,
+                "name": "Trịnh Trần Phương Tuấn"
+            },
+            {
+                "id": "100009801367183",
+                "count": 0,
+                "name": "Quyết Hoàng"
+            },
+            {
+                "id": "61553392607991",
+                "count": 20,
+                "name": "Phạm Vy"
+            }
+        ],
+        "week": [
+            {
+                "id": "61561620350317",
+                "count": 42,
+                "name": "Heaven Gaming"
+            },
+            {
+                "id": "100066763240078",
+                "count": 6,
+                "name": "Phải Dị Chứ"
+            },
+            {
+                "id": "100083786055315",
+                "count": 0,
+                "name": "Lee Zan Bảo Hoàng"
+            },
+            {
+                "id": "100069692124698",
+                "count": 24,
+                "name": "Ko Tên Thứ Hai"
+            },
+            {
+                "id": "100008758532744",
+                "count": 3,
+                "name": "Giang Nguyen"
+            },
+            {
+                "id": "100004973230092",
+                "count": 22,
+                "name": "Nguyễnvăn Thành"
+            },
+            {
+                "id": "100089421346609",
+                "count": 16,
+                "name": "Đỗ Hòa"
+            },
+            {
+                "id": "100084175287130",
+                "count": 25,
+                "name": "Phạm Phạm"
+            },
+            {
+                "id": "100014042626582",
+                "count": 3,
+                "name": "Thanh Xuân"
+            },
+            {
+                "id": "100077900138756",
+                "count": 13,
+                "name": "Eli Clark"
+            },
+            {
+                "id": "100079244162748",
+                "count": 9,
+                "name": "Phan Tuấn Hùng"
+            },
+            {
+                "id": "100013493196996",
+                "count": 4,
+                "name": "Nguyễn Quý Hùng"
+            },
+            {
+                "id": "61562426783931",
+                "count": 0,
+                "name": "Trịnh Trần Phương Tuấn"
+            },
+            {
+                "id": "100009801367183",
+                "count": 0,
+                "name": "Quyết Hoàng"
+            },
+            {
+                "id": "61553392607991",
+                "count": 52,
+                "name": "Phạm Vy"
+            }
+        ]
+    }
+}

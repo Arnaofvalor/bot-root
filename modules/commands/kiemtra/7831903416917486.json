@@ -492,7 +492,7 @@
     "week": [
         {
             "id": "100075965076430",
-            "count": 4,
+            "count": 0,
             "name": "Ng Ngọc Cẩm"
         },
         {
@@ -502,7 +502,7 @@
         },
         {
             "id": "100074678345785",
-            "count": 25,
+            "count": 0,
             "name": "Nguyêt Y Băng"
         },
         {
@@ -512,7 +512,7 @@
         },
         {
             "id": "100037657961177",
-            "count": 17,
+            "count": 0,
             "name": "Thiện Chơn"
         },
         {
@@ -642,7 +642,7 @@
         },
         {
             "id": "61553027408910",
-            "count": 2,
+            "count": 0,
             "name": "Hà Hoàng Thanh"
         },
         {
@@ -662,7 +662,7 @@
         },
         {
             "id": "100009093219765",
-            "count": 2,
+            "count": 0,
             "name": "Hoàng Công Thành"
         },
         {
@@ -757,7 +757,7 @@
         },
         {
             "id": "100010375239539",
-            "count": 1,
+            "count": 0,
             "name": "Khánhh An"
         },
         {
@@ -812,7 +812,7 @@
         },
         {
             "id": "100080699744470",
-            "count": 1,
+            "count": 0,
             "name": "Tpg Huy"
         },
         {
@@ -832,7 +832,7 @@
         },
         {
             "id": "100080421706789",
-            "count": 2,
+            "count": 0,
             "name": "Hoàng Việt Đỗ"
         },
         {
@@ -887,7 +887,7 @@
         },
         {
             "id": "61558735991816",
-            "count": 1,
+            "count": 0,
             "name": "Tâm Như Nguyễn Phan"
         },
         {
@@ -912,7 +912,7 @@
         },
         {
             "id": "100009801367183",
-            "count": 1,
+            "count": 0,
             "name": "Quyết Hoàng"
         },
         {
@@ -922,7 +922,7 @@
         },
         {
             "id": "61553643156660",
-            "count": 8,
+            "count": 0,
             "name": "Nguyễn Hoàng"
         },
         {
@@ -932,7 +932,7 @@
         },
         {
             "id": "100078482926247",
-            "count": 13,
+            "count": 0,
             "name": "Nguyễn Nam Hải"
         },
         {
@@ -987,7 +987,7 @@
         },
         {
             "id": "100070254518239",
-            "count": 2,
+            "count": 0,
             "name": "Khanh Ngoc"
         },
         {
@@ -1713,7 +1713,7 @@
             "name": "Mih Thu"
         }
     ],
-    "time": 6,
+    "time": 1,
     "last": {
         "time": 2,
         "day": [
@@ -2331,27 +2331,27 @@
         "week": [
             {
                 "id": "100075965076430",
-                "count": 533,
+                "count": 4,
                 "name": "Ng Ngọc Cẩm"
             },
             {
                 "id": "100088501315184",
-                "count": 175,
+                "count": 0,
                 "name": "Nguyễn An"
             },
             {
                 "id": "100074678345785",
-                "count": 130,
+                "count": 25,
                 "name": "Nguyêt Y Băng"
             },
             {
                 "id": "100068179511860",
-                "count": 35,
+                "count": 0,
                 "name": "Bảo Hân"
             },
             {
                 "id": "100037657961177",
-                "count": 46,
+                "count": 17,
                 "name": "Thiện Chơn"
             },
             {
@@ -2361,12 +2361,12 @@
             },
             {
                 "id": "61554236376309",
-                "count": 4,
+                "count": 0,
                 "name": "Nguyễn Phương Linh"
             },
             {
                 "id": "100085575850776",
-                "count": 7,
+                "count": 0,
                 "name": "Lê Nhung"
             },
             {
@@ -2376,7 +2376,7 @@
             },
             {
                 "id": "61555613528930",
-                "count": 2,
+                "count": 0,
                 "name": "Tzyy"
             },
             {
@@ -2396,12 +2396,12 @@
             },
             {
                 "id": "100038264122083",
-                "count": 1,
+                "count": 0,
                 "name": "Ly Na Nguyễn"
             },
             {
                 "id": "100082555800365",
-                "count": 29,
+                "count": 0,
                 "name": "Nghi Trân Bao"
             },
             {
@@ -2431,7 +2431,7 @@
             },
             {
                 "id": "61558166366711",
-                "count": 2,
+                "count": 0,
                 "name": "Minhh Đứcc"
             },
             {
@@ -2441,7 +2441,7 @@
             },
             {
                 "id": "61552269481894",
-                "count": 51,
+                "count": 0,
                 "name": "Lingg Chii"
             },
             {
@@ -2451,7 +2451,7 @@
             },
             {
                 "id": "100077229789485",
-                "count": 6,
+                "count": 0,
                 "name": "Huỳnh Thi Lan Nhi"
             },
             {
@@ -2466,7 +2466,7 @@
             },
             {
                 "id": "100086320515204",
-                "count": 84,
+                "count": 0,
                 "name": "Khanh An"
             },
             {
@@ -2476,12 +2476,12 @@
             },
             {
                 "id": "100074232399336",
-                "count": 133,
+                "count": 0,
                 "name": "Thy Nguyen"
             },
             {
                 "id": "61553027408910",
-                "count": 5,
+                "count": 2,
                 "name": "Hà Hoàng Thanh"
             },
             {
@@ -2501,17 +2501,17 @@
             },
             {
                 "id": "100009093219765",
-                "count": 35,
+                "count": 2,
                 "name": "Hoàng Công Thành"
             },
             {
                 "id": "61557831969844",
-                "count": 2,
+                "count": 0,
                 "name": "Đoàn Bảo Trân"
             },
             {
                 "id": "61557861714661",
-                "count": 1,
+                "count": 0,
                 "name": "Nguyễn Ngọc Bảo An"
             },
             {
@@ -2531,27 +2531,27 @@
             },
             {
                 "id": "100081174639156",
-                "count": 22,
+                "count": 0,
                 "name": "Hoaif Thuog"
             },
             {
                 "id": "100070921371838",
-                "count": 1,
+                "count": 0,
                 "name": "Py Pie"
             },
             {
                 "id": "100080343127183",
-                "count": 523,
+                "count": 0,
                 "name": "Huỳnh Nga"
             },
             {
                 "id": "100094132534706",
-                "count": 6,
+                "count": 0,
                 "name": "Cá Ham Ănn"
             },
             {
                 "id": "61553616143781",
-                "count": 7,
+                "count": 0,
                 "name": "Khánh Băng"
             },
             {
@@ -2561,7 +2561,7 @@
             },
             {
                 "id": "100029794560321",
-                "count": 11,
+                "count": 0,
                 "name": "Nguyễn Ngọc Linh Đan"
             },
             {
@@ -2576,12 +2576,12 @@
             },
             {
                 "id": "61556668607804",
-                "count": 15,
+                "count": 0,
                 "name": "Diep Anh"
             },
             {
                 "id": "100066103215102",
-                "count": 1,
+                "count": 0,
                 "name": "Nam Hoàii"
             },
             {
@@ -2591,12 +2591,12 @@
             },
             {
                 "id": "100080928510880",
-                "count": 10,
+                "count": 0,
                 "name": "Nguyễn Thích Tùng"
             },
             {
                 "id": "100010375239539",
-                "count": 4,
+                "count": 1,
                 "name": "Khánhh An"
             },
             {
@@ -2641,27 +2641,27 @@
             },
             {
                 "id": "100075606429552",
-                "count": 14,
+                "count": 0,
                 "name": "Bae Ga Kyung"
             },
             {
                 "id": "100087336324412",
-                "count": 8,
+                "count": 0,
                 "name": "Lan Tiên"
             },
             {
                 "id": "100080699744470",
-                "count": 281,
+                "count": 1,
                 "name": "Tpg Huy"
             },
             {
                 "id": "61553790760347",
-                "count": 1,
+                "count": 0,
                 "name": "Nguyễn Ngọc Linh"
             },
             {
                 "id": "100088352747954",
-                "count": 127,
+                "count": 0,
                 "name": "Thao My"
             },
             {
@@ -2671,7 +2671,7 @@
             },
             {
                 "id": "100080421706789",
-                "count": 33,
+                "count": 2,
                 "name": "Hoàng Việt Đỗ"
             },
             {
@@ -2691,32 +2691,32 @@
             },
             {
                 "id": "100065251624131",
-                "count": 9,
+                "count": 0,
                 "name": "Tran Phuong"
             },
             {
                 "id": "100073652971441",
-                "count": 7,
+                "count": 0,
                 "name": "Lie Miyuki"
             },
             {
                 "id": "61552045160970",
-                "count": 27,
+                "count": 0,
                 "name": "Lê Nguyệt Minhh"
             },
             {
                 "id": "100062959641527",
-                "count": 13,
+                "count": 0,
                 "name": "Hảo Thơm"
             },
             {
                 "id": "61551661804403",
-                "count": 50,
+                "count": 0,
                 "name": "Trieu Lam"
             },
             {
                 "id": "61550628552926",
-                "count": 37,
+                "count": 0,
                 "name": "Nguyễn Trang My"
             },
             {
@@ -2726,17 +2726,17 @@
             },
             {
                 "id": "61558735991816",
-                "count": 34,
+                "count": 1,
                 "name": "Tâm Như Nguyễn Phan"
             },
             {
                 "id": "100093197131820",
-                "count": 1,
+                "count": 0,
                 "name": "Rong Sao"
             },
             {
                 "id": "100064912474865",
-                "count": 1,
+                "count": 0,
                 "name": "Pham Anh Duc"
             },
             {
@@ -2746,37 +2746,37 @@
             },
             {
                 "id": "100088113279400",
-                "count": 28,
+                "count": 0,
                 "name": "Nhu Y Chuchee"
             },
             {
                 "id": "100009801367183",
-                "count": 20,
+                "count": 1,
                 "name": "Quyết Hoàng"
             },
             {
                 "id": "100087966372482",
-                "count": 24,
+                "count": 0,
                 "name": "Minh Minh"
             },
             {
                 "id": "61553643156660",
-                "count": 417,
+                "count": 8,
                 "name": "Nguyễn Hoàng"
             },
             {
                 "id": "100093073677371",
-                "count": 172,
+                "count": 0,
                 "name": "Ngọc Hân"
             },
             {
                 "id": "100078482926247",
-                "count": 171,
+                "count": 13,
                 "name": "Nguyễn Nam Hải"
             },
             {
                 "id": "100077671680413",
-                "count": 3,
+                "count": 0,
                 "name": "Bé Cưngg"
             },
             {
@@ -2786,57 +2786,57 @@
             },
             {
                 "id": "100076812453387",
-                "count": 59,
+                "count": 0,
                 "name": "Đỗ Huy"
             },
             {
                 "id": "100091639360800",
-                "count": 178,
+                "count": 0,
                 "name": "Phuong Anhh Vũ"
             },
             {
                 "id": "100066284065984",
-                "count": 29,
+                "count": 0,
                 "name": "Hoangg Anhh"
             },
             {
                 "id": "61556904306097",
-                "count": 154,
+                "count": 0,
                 "name": "Nguyen Nguyen"
             },
             {
                 "id": "61560115744859",
-                "count": 3,
+                "count": 0,
                 "name": "Nguyễn Hân"
             },
             {
                 "id": "100085100610998",
-                "count": 14,
+                "count": 0,
                 "name": "Võ Linh"
             },
             {
                 "id": "100088587824080",
-                "count": 8,
+                "count": 0,
                 "name": "Đức Đạt"
             },
             {
                 "id": "61554425646796",
-                "count": 26,
+                "count": 0,
                 "name": "Han Nguyen"
             },
             {
                 "id": "100070254518239",
-                "count": 24,
+                "count": 2,
                 "name": "Khanh Ngoc"
             },
             {
                 "id": "100056272951174",
-                "count": 99,
+                "count": 0,
                 "name": "Tớ Tên Là Mực"
             },
             {
                 "id": "100002953281067",
-                "count": 9,
+                "count": 0,
                 "name": "Đinh Trương Minh Mẫn"
             },
             {
@@ -2846,12 +2846,12 @@
             },
             {
                 "id": "61561377317721",
-                "count": 5,
+                "count": 0,
                 "name": "tlinh "
             },
             {
                 "id": "100094678129275",
-                "count": 2,
+                "count": 0,
                 "name": "Trần Hào"
             },
             {
@@ -2861,37 +2861,37 @@
             },
             {
                 "id": "100058341378296",
-                "count": 15,
+                "count": 0,
                 "name": "Ngọc Tuyền"
             },
             {
                 "id": "100090301983710",
-                "count": 2,
+                "count": 0,
                 "name": "Anh Thu"
             },
             {
                 "id": "100036596419691",
-                "count": 15,
+                "count": 0,
                 "name": "Bảo Minh"
             },
             {
                 "id": "100083031583312",
-                "count": 97,
+                "count": 0,
                 "name": "Trần Thảo"
             },
             {
                 "id": "100091376056734",
-                "count": 2,
+                "count": 0,
                 "name": "Thao Phuong"
             },
             {
                 "id": "100076645955565",
-                "count": 2,
+                "count": 0,
                 "name": "Nguyễn Chi"
             },
             {
                 "id": "100013550177469",
-                "count": 89,
+                "count": 0,
                 "name": "Nguyễn Tường Vy"
             },
             {
@@ -2901,7 +2901,7 @@
             },
             {
                 "id": "100089008973608",
-                "count": 4,
+                "count": 0,
                 "name": "𝑻𝒉𝒊𝒆̂𝒏 𝑵𝒈𝒐̣𝒄"
             },
             {
@@ -2911,7 +2911,7 @@
             },
             {
                 "id": "100079555719240",
-                "count": 11,
+                "count": 0,
                 "name": "Lộc Đạtt"
             },
             {
@@ -2921,12 +2921,12 @@
             },
             {
                 "id": "100082897621667",
-                "count": 28,
+                "count": 0,
                 "name": "Nguyễn Trương Khang"
             },
             {
                 "id": "100073678212465",
-                "count": 17,
+                "count": 0,
                 "name": "Lê Khang"
             },
             {
@@ -2936,7 +2936,7 @@
             },
             {
                 "id": "100050781501944",
-                "count": 3,
+                "count": 0,
                 "name": "Mih Thu"
             }
         ]

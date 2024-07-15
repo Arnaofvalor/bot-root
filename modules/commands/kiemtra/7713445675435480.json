@@ -14,17 +14,17 @@
         },
         {
             "id": "100041369492342",
-            "count": 0
+            "count": 3
         },
         {
             "id": "61553392607991",
-            "count": 750
+            "count": 1046
         }
     ],
     "week": [
         {
             "id": "100009801367183",
-            "count": 440,
+            "count": 0,
             "name": "Quyết Hoàng"
         },
         {
@@ -34,7 +34,7 @@
         },
         {
             "id": "61553643156660",
-            "count": 5,
+            "count": 0,
             "name": "Nguyễn Hoàng"
         },
         {
@@ -44,7 +44,8 @@
         },
         {
             "id": "61553392607991",
-            "count": 750
+            "count": 66,
+            "name": "Phạm Vy"
         }
     ],
     "day": [
@@ -65,22 +66,22 @@
         },
         {
             "id": "100041369492342",
-            "count": 0,
+            "count": 3,
             "name": "Nguyễn Khải"
         },
         {
             "id": "61553392607991",
-            "count": 10,
+            "count": 219,
             "name": "Phạm Vy"
         }
     ],
-    "time": 6,
+    "time": 1,
     "last": {
         "time": 4,
         "day": [
             {
                 "id": "100009801367183",
-                "count": 275,
+                "count": 0,
                 "name": "Quyết Hoàng"
             },
             {
@@ -100,14 +101,14 @@
             },
             {
                 "id": "61553392607991",
-                "count": 494,
+                "count": 87,
                 "name": "Phạm Vy"
             }
         ],
         "week": [
             {
                 "id": "100009801367183",
-                "count": 307,
+                "count": 440,
                 "name": "Quyết Hoàng"
             },
             {
@@ -117,17 +118,18 @@
             },
             {
                 "id": "61553643156660",
-                "count": 410,
+                "count": 5,
                 "name": "Nguyễn Hoàng"
             },
             {
                 "id": "100041369492342",
-                "count": 0,
+                "count": 3,
                 "name": "Nguyễn Khải"
             },
             {
                 "id": "61553392607991",
-                "count": 0
+                "count": 980,
+                "name": "Phạm Vy"
             }
         ]
     }

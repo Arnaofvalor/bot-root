@@ -1,113 +1,39 @@
+const axios = require("axios");
+const moment = require("moment-timezone");
+
 module.exports.config = {
-  name: "gpt",
-  version: "4.0.0",
-  hasPermssion: 0,
-  credits: "Fumio",
-  description: "GPT4",
-  commandCategory: "box chat",
-  usages: "[Script]",
-  cooldowns: 5,
-  usePrefix: false,
-};
-var axios = require("axios");
-var api_key = "";
-async function chat(messages) {
- // console.log(messages)
-  var apikey = require("./data/apikey.json");
-  var token = apikey[Math.floor(Math.random()*apikey.length)];
-  var key = token.token[Math.floor(Math.random()*token.token.length)];
- // console.log(key)
-
-
-  const options = {
-    method: 'POST',
-    url: 'https://chatgpt-api8.p.rapidapi.com/',
-  headers: {
-    'content-type': 'application/json',
-    'X-RapidAPI-Key':key,
-    'X-RapidAPI-Host': 'chatgpt-api8.p.rapidapi.com'
-  },
-    data:messages
-  };
-
-  try {
-    const response = await axios.request(options);  
-   // console.log(response.data);
-    return response
-  } catch (error) {
-    console.error(error);
-  }
-}
-module.exports.run = async function ({
-  api,
-  event: e,
-  args,
-  Threads,
-  Users,
-  Currencies,
-  models,
-}) {
-  try{
-  var query =
-    e.type === "message_reply"
-      ? args.join(" ") + ' "' + e.messageReply.body + '"'
-      : args.join(" ");
-
-  var encodedQuery = encodeURIComponent(query);
-
-  let messages = [
-    { role: "system", content: "You are a helpful assistant" },
-    { role: "user", content: query },
-  ];
-
-  var response = await chat(messages);
-
-  let message = { role: "assistant",
-                 content: response.data.text}
-
-  var result = response.data.text;
-
-  try {
-    return api.sendMessage(
-      result,
-      e.threadID,
-      (err, res) => (
-        messages.push(message),
-        (res.name = exports.config.name),
-        (res.messages = messages),
-        global.client.handleReply.push(res)
-      ),
-    );
-  } catch (error) {
-    console.error(error);
-
-    api.sendMessage(result, e.threadID);
-  }
-  } catch(e) {console.log(e)}
+    name: "gpt",
+    version: "8.8",
+    hasPermission: 0,
+    credits: "ex ★ machina",
+    description: "ChatGPT 4.0",
+    commandCategory: "noprefix",
+    usages: "noprefix",
+    cooldowns: 3,
 };
 
-module.exports.handleReply = async (o) => {
-  let messages = o.handleReply.messages;
-
-  messages.push({ role: "user", content: o.event.body });
-//console.log(messages)
-  let res = await chat(messages);
-
-  let message = { role: "assistant",
-       content: res.data.text}
-;
-
-  o.api.sendMessage(
-    res.data.text,
-    o.event.threadID,
-    (err, res) => (
-      messages.push(message),
-      (res.name = exports.config.name),
-      (res.messages = messages),
-      global.client.handleReply.push(res)
-    ),
-    o.event.messageID,
-  );
-
-  // console.log(message.content)
+module.exports.handleEvent = async function({ api, event }) {
+    if (!(event.body.indexOf("gpt") === 0 || event.body.indexOf("Gpt") === 0)) return;
+    const args = event.body.split(/\s+/);
+    args.shift();
+    if (args.length === 0) {
+        api.sendMessage("🤖 ChatGPT 4.0 được huấn luyện bởi OpenAI.\n🔍 Để sử dụng: [Gpt / gpt] [input]\n👉 Ví dụ hãy nhắn: Gpt ý nghĩa của cuộc sống", event.threadID, event.messageID);
+        return; 
+    }
+    try {
+        api.setMessageReaction("✅", event.threadID, event.messageID);
+        const prompt = args.join(" ");
+        const response = await axios.get(`http://43.134.186.138:4444/chatgpt5?text=${encodeURIComponent(prompt)}`);
+        if (response.data && response.data.content) {
+            const currentTimePH = moment().tz('Asia/Ho_Chi_Minh').format('hh:mm:ss A');
+            api.sendMessage(`🎓 ℂ𝕙𝕒𝕥𝔾ℙ𝕋 𝟜.𝟘\n\n🖋️ 𝘾𝙖̂𝙪 𝙝𝙤̉𝙞 : '${prompt}'\n\n📝 𝙁𝙚𝙚𝙙𝙗𝙖𝙘𝙠:${response.data.content}\n\n⏰ Time: ${currentTimePH}`, event.threadID, event.messageID);
+        } else {
+            api.sendMessage("🔍 Đã xảy ra lỗi, vui lòng kiểm tra ChatGPT API của bạn và thử lại", event.threadID);
+        }
+    } catch (error) {
+        api.sendMessage("🔍 Đã xảy ra lỗi kết nối với ChatGPT API.", event.threadID); 
+        console.error("🚫 Lỗi phản hồi:", error);
+    }
 };
+
+module.exports.run = async function({ api, event }) {};

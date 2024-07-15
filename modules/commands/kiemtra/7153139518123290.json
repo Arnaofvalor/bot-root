@@ -33,7 +33,7 @@
         {
             "id": "100052132672311",
             "count": 0,
-            "name": "Người dùng facebook"
+            "name": "Nguyễn Lê Duy Mẫn"
         },
         {
             "id": "100046194132744",
@@ -53,7 +53,7 @@
         {
             "id": "100065306220347",
             "count": 0,
-            "name": "Người dùng facebook"
+            "name": "Pé Mun"
         },
         {
             "id": "100069389838852",
@@ -103,7 +103,7 @@
             "name": "Nguyễn Hoàng"
         }
     ],
-    "time": 6,
+    "time": 1,
     "last": {
         "time": 5,
         "day": [
@@ -147,7 +147,7 @@
             {
                 "id": "100052132672311",
                 "count": 0,
-                "name": "Người dùng facebook"
+                "name": "Nguyễn Lê Duy Mẫn"
             },
             {
                 "id": "100046194132744",
@@ -156,7 +156,7 @@
             },
             {
                 "id": "100009801367183",
-                "count": 1,
+                "count": 0,
                 "name": "Quyết Hoàng"
             },
             {
@@ -167,16 +167,16 @@
             {
                 "id": "100065306220347",
                 "count": 0,
-                "name": "Người dùng facebook"
+                "name": "Pé Mun"
             },
             {
                 "id": "100069389838852",
-                "count": 2,
+                "count": 0,
                 "name": "Người dùng facebook"
             },
             {
                 "id": "61553643156660",
-                "count": 3,
+                "count": 0,
                 "name": "Nguyễn Hoàng"
             }
         ]
